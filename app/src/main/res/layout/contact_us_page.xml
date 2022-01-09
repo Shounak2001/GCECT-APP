@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="40dp"
+
+            android:fontFamily="@font/roboto_bold"
+            android:text="CONTACT US"
+            android:textColor="#000068"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/gcect_logo"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="436dp"
+            android:layout_gravity="center"
+            android:background="#000062"
+
+            >
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:foregroundGravity="center"
+            android:src="@drawable/ellipse6"
+
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/rect24"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:hint="Your Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+
+                />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:hint="Your Email"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:hint="Subject"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+
+                />
+
+            <EditText
+                android:id="@+id/editMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg2"
+                android:ems="10"
+                android:hint="Your Message"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rect25"
+                android:elevation="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="SEND"
+
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginTop="720dp"
+            android:src="@drawable/mapv" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rect25"
+                android:backgroundTint="#000068"
+                android:elevation="5dp"
+                android:fontFamily="@font/roboto_bold"
+
+                android:gravity="center"
+                android:text="ADDRESS"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+
+            android:layout_below="@id/map"
+            android:layout_gravity="center"
+            android:background="#000062">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginBottom="20dp"
+
+                android:background="@drawable/rect27">
+
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="50dp"
+                    android:layout_toLeftOf="@id/txt"
+                    android:paddingStart="15dp"
+                    android:src="@drawable/pin"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="150dp"
+                    android:src="@drawable/line1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="90dp"
+                    android:layout_toLeftOf="@id/txt2"
+                    android:paddingStart="15dp"
+                    android:src="@drawable/call"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/line1" />
+
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="40dp"
+                    android:layout_toLeftOf="@id/txt2"
+                    android:paddingStart="15dp"
+                    android:src="@drawable/fax"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/line1" />
+
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="45dp"
+                    android:layout_toLeftOf="@id/txt2"
+                    android:paddingStart="15dp"
+                    android:src="@drawable/mail"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="40dp"
+                    android:gravity="left"
+                    android:paddingEnd="55dp"
+                    android:text="2370 1263, 2363 3674,\n2363 3675"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="25dp"
+
+                    android:paddingEnd="15dp"
+                    android:text="Govt. College Of Engineering\nand Ceramic Technology\n73, Abinash Chandra\nBanerjee Lane,\nKolkata-700 010"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="35dp"
+                    android:gravity="left"
+                    android:paddingEnd="65dp"
+                    android:text="2370 1263, 2363 3674"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt3"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="35dp"
+                    android:gravity="left"
+                    android:paddingEnd="65dp"
+                    android:text="principal@gcect.ac.in,\ngcectwb@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+

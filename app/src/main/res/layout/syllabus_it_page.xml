@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="40dp"
+
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="INFORMATION TECHNOLOGY"
+                    android:textColor="#000068"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/gcect_logo"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1650dp"
+                    android:layout_gravity="center"
+                    android:background="#000062"
+
+                    >
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="235dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect24syllabus"
+                    android:layout_marginTop="110dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/cseframe0"
+                    >
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="First Year B.Tech(CSE/IT)"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:layout_marginTop="-25dp"
+                        android:id="@+id/text0_cse"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rect28download"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginBottom="30dp"
+                        android:elevation="5dp"
+                        android:gravity="center"
+                        android:textColor="#000068"
+                        android:fontFamily="@font/roboto_bold">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="40dp"
+
+                            android:src="@drawable/download_icon1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="32dp"
+
+                            android:src="@drawable/download_below" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="-10dp"
+                            android:paddingBottom="7dp"
+                            android:text="DOWNLOAD"
+                            android:textColor="#000068"
+
+                            />
+
+                    </FrameLayout>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect24syllabus"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/cseframe1"
+                    android:layout_below="@id/cseframe0"
+                    >
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="B. Tech(IT) 3rd/4th/5th/6th/7th Semester (2019 – 20) Syllabus"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:layout_marginTop="-25dp"
+                        android:id="@+id/text1_cse"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:background="@drawable/rect28download"
+                        android:elevation="5dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="center"
+                        android:textColor="#000068">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="40dp"
+
+                            android:src="@drawable/download_icon1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="32dp"
+
+                            android:src="@drawable/download_below" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="-10dp"
+                            android:paddingBottom="7dp"
+                            android:text="DOWNLOAD"
+                            android:textColor="#000068"
+
+                            />
+
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="235dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect24syllabus"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/cseframe2"
+                    android:layout_below="@id/cseframe1"
+                    >
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="B.Tech(Old Syllabus)"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:layout_marginTop="-25dp"
+                        android:id="@+id/text2_cse"
+                        />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rect28download"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginBottom="30dp"
+                        android:elevation="5dp"
+                        android:gravity="center"
+                        android:textColor="#000068"
+                        android:fontFamily="@font/roboto_bold"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DOWNLOAD"
+                            android:textColor="#000068"
+                            android:layout_gravity="center"
+                            android:paddingBottom="7dp"
+                            android:layout_marginStart="-10dp"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="40dp"
+
+                            android:src="@drawable/download_icon1"
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="32dp"
+
+                            android:src="@drawable/download_below"
+                            />
+
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="235dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect24syllabus"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/cseframe3"
+                    android:layout_below="@id/cseframe2"
+                    >
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="M. Tech"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:layout_marginTop="-25dp"
+                        android:id="@+id/text3_cse"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rect28download"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginBottom="30dp"
+                        android:elevation="5dp"
+                        android:gravity="center"
+                        android:textColor="#000068"
+                        android:fontFamily="@font/roboto_bold">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="40dp"
+
+                            android:src="@drawable/download_icon1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="32dp"
+
+                            android:src="@drawable/download_below" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="-10dp"
+                            android:paddingBottom="7dp"
+                            android:text="DOWNLOAD"
+                            android:textColor="#000068"
+
+                            />
+
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="235dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect24syllabus"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/cseframe4"
+                    android:layout_below="@id/cseframe3"
+                    >
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="M. Tech (Revised, 2021)"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:layout_marginTop="-25dp"
+                        android:id="@+id/text4_cse"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rect28download"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="85dp"
+                        android:layout_marginBottom="30dp"
+                        android:elevation="5dp"
+                        android:gravity="center"
+                        android:textColor="#000068"
+                        android:fontFamily="@font/roboto_bold">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="40dp"
+
+                            android:src="@drawable/download_icon1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="32dp"
+
+                            android:src="@drawable/download_below" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="-10dp"
+                            android:paddingBottom="7dp"
+                            android:text="DOWNLOAD"
+                            android:textColor="#000068"
+
+                            />
+
+                    </FrameLayout>
+                </FrameLayout>
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-120dp"
+                    android:background="@android:color/transparent"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/ellipse6"
+
+                    />
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

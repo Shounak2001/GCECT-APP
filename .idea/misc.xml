@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GCECT-APP/app/src/main/res/drawable/download_icon.xml" value="0.26614583333333336" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/drawable/syllabus_cse_page.xml" value="0.262037037037037" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/drawable/yellow_gradient.xml" value="0.2537037037037037" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/layout/collaboration_page.xml" value="0.264" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/layout/contact_us_page.xml" value="0.2" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/layout/home_page_bottom_sheet_list_item.xml" value="0.12708333333333333" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/layout/syllabus_cse_page.xml" value="0.1" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/layout/syllabus_ct_page.xml" value="0.25" />
+        <entry key="..\:/GCECT-APP/app/src/main/res/layout/syllabus_it_page.xml" value="0.25" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/drawable/about_us_icon.xml" value="0.2703125" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/drawable/download_icon.xml" value="0.2703125" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/drawable/forward_arrow.xml" value="0.2703125" />

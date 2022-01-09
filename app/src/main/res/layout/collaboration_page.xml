@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="40dp"
+
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="COLLABORATION"
+                    android:textColor="#000068"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/gcect_logo"
+
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="820dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/yellow_gradient"
+
+                    >
+
+
+                    <FrameLayout
+                        android:id="@+id/collab_frame"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginBottom="80dp"
+                        android:background="@drawable/rect33">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text1_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text2_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line17" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text1_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line17" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text3_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line17" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text4_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line17" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text5_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line17" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text6_collab"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="7dp"
+                                android:src="@drawable/line17" />
+
+                            <TextView
+                                android:id="@+id/text1_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="25dp"
+                                android:paddingRight="25dp"
+                                android:text="How has the College’s collaboration with other agencies impacted the visibility, identity and diversity of activities on the campus? To what extent has the College benefited academically and financially because of collaborations?"
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/text2_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text1_collab"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="left"
+                                android:paddingLeft="25dp"
+
+                                android:paddingTop="20dp"
+                                android:paddingRight="25dp"
+                                android:text="Some impacts evident at the College as a result of its collaborations with other agencies are as follows:"
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/text3_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text2_collab"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="left"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="12dp"
+                                android:paddingRight="25dp"
+                                android:text="Establishment for centre for Jute Cement Composite research in collaboration with IIT, Kharagpur."
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/text4_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text3_collab"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="left"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="12dp"
+                                android:paddingRight="25dp"
+                                android:text="Student of both the institute share laboratory facilities with Chemical Engineering and Chemical TechnologyDeptt. Of Calcutta University and Metallurgy Dept. of Jadavpur University."
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/text5_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text4_collab"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="left"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="12dp"
+                                android:paddingRight="25dp"
+                                android:text="Involvement of all PG students of Ceramic Technology (2010-12)with financial support in research funded by private entrepreneurs, Progressive Enterprise Pvt. Ltd."
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/text6_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text5_collab"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="left"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="12dp"
+                                android:paddingRight="25dp"
+                                android:text="Involvement of few passed out UG students in projects funded by private agencies like Aditya Birla Insulators Ltd., Sepulchre Brothers (India) Pvt. Ltd. Etc."
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/text7_collab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text6_collab"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="left"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="12dp"
+                                android:paddingRight="25dp"
+                                android:text="Regular visit of industry personal of collaborative industry for interaction with the student and the faculty members."
+                                android:textColor="#000062"
+                                android:textSize="15dp" />
+
+
+                        </RelativeLayout>
+
+
+                    </FrameLayout>
+
+
+
+                </FrameLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-120dp"
+                    android:background="@android:color/transparent"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/ellipse6"
+
+                    />
+
+
+            </RelativeLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                android:background="#000062"
+
+                >
+
+
+                <FrameLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect29faded"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="S. Maitra, et. al.  :Scouring powder Composition and a process there of,(between GCECT and CFRI, Dhanbad) European Patent, 10/107,613, March, 27, 2002."
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="55dp"
+
+                            android:textColor="@color/white"
+                            android:id="@+id/patent_txt1"
+                            android:gravity="center"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/roboto_medium"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/line1white"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/patent_txt1"
+                            android:layout_marginTop="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sampa Chakraborty, S. Maitra and R.C. Das, Ceramic glazing pigments from chrome iron sludge, (No. PAA 1918) submitted to NRDC."
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:paddingTop="55dp"
+
+                            android:textColor="@color/white"
+                            android:layout_below="@id/patent_txt1"
+                            android:gravity="center"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/roboto_medium"/>
+
+
+
+                    </RelativeLayout>
+
+
+
+
+                </FrameLayout>
+
+
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect29"
+                android:text="List of Patents"
+                android:textColor="@color/white"
+                android:layout_marginTop="-525dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
